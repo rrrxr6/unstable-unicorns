@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" opacity="1.0" prefHeight="856.0" prefWidth="586.0" style="-fx-background-color: white" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="org.unstable.unicorns.fxml.RulesFXMLController">
+    <children>
+        <TabPane focusTraversable="true" layoutX="0.0" layoutY="0.0" prefHeight="856.0" prefWidth="586.0" style="-fx-background-color: white;" tabClosingPolicy="UNAVAILABLE" visible="true">
+            <tabs>
+                <Tab closable="false" style="" text="Setup">
+                    <content>
+                        <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <children>
+                                <ImageView fitHeight="806.590886989719" fitWidth="585.0" layoutX="1.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../images/RulesSetup.PNG" />
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab closable="false" style="" text="Basic Rules">
+                    <content>
+                        <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <children>
+                                <ImageView fitHeight="825.0" fitWidth="571.153837001716" layoutX="0.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../images/RulesWhatToDo.PNG" />
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab closable="false" style="" text="Card Types">
+                    <content>
+                        <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <children>
+                                <ImageView fitHeight="829.3604902465461" fitWidth="546.3601684570312" layoutX="0.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../images/RulesCardTypes.PNG" />
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab closable="false" text="Extra Rules">
+                    <content>
+                        <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <children>
+                                <ImageView fitHeight="806.590886989719" fitWidth="585.0" layoutX="1.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../images/RulesExtra.PNG" />
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </children>
+</AnchorPane>

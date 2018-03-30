@@ -4,11 +4,14 @@ import java.awt.Image;
 
 /**
  * Description.
+ *
  * @author Your Name
  */
-public abstract class FlyingUnicorn extends Unicorn {
+public abstract class FlyingUnicorn extends Unicorn
+{
 
-    public FlyingUnicorn(String name, String description, Image image, Boolean hasStaticEffect) {
+    public FlyingUnicorn(String name, String description, Image image, Boolean hasStaticEffect)
+    {
         super(name, description, image, hasStaticEffect);
     }
 
@@ -16,7 +19,8 @@ public abstract class FlyingUnicorn extends Unicorn {
      * {@inheritDoc}
      */
     @Override
-    public void onSacrifice() {
+    public void onSacrifice()
+    {
         // Player.addToHand(this)
     }
 
@@ -24,7 +28,8 @@ public abstract class FlyingUnicorn extends Unicorn {
      * {@inheritDoc}
      */
     @Override
-    public void onDestroy() {
+    public void onDestroy()
+    {
         // Player.addToHand(this)
     }
 }

@@ -4,9 +4,11 @@ import java.awt.Image;
 
 /**
  * Description.
+ *
  * @author Your Name
  */
-public class GreedyFlyingUnicorn extends FlyingUnicorn {
+public class GreedyFlyingUnicorn extends FlyingUnicorn
+{
 
     /**
      * @param name
@@ -14,7 +16,8 @@ public class GreedyFlyingUnicorn extends FlyingUnicorn {
      * @param image
      * @param hasStaticEffect
      */
-    public GreedyFlyingUnicorn(String name, String description, Image image, Boolean hasStaticEffect) {
+    public GreedyFlyingUnicorn(String name, String description, Image image, Boolean hasStaticEffect)
+    {
         super(name, description, image, hasStaticEffect);
         // TODO Auto-generated constructor stub
     }
@@ -23,7 +26,8 @@ public class GreedyFlyingUnicorn extends FlyingUnicorn {
      * {@inheritDoc}
      */
     @Override
-    public void onStableEnter() {
+    public void onStableEnter()
+    {
         // TODO Auto-generated method stub
 
     }
@@ -32,7 +36,8 @@ public class GreedyFlyingUnicorn extends FlyingUnicorn {
      * {@inheritDoc}
      */
     @Override
-    public void onStableExit() {
+    public void onStableExit()
+    {
         // TODO Auto-generated method stub
 
     }
@@ -41,7 +46,8 @@ public class GreedyFlyingUnicorn extends FlyingUnicorn {
      * {@inheritDoc}
      */
     @Override
-    public void onTurnBegin() {
+    public void onTurnBegin()
+    {
         // TODO Auto-generated method stub
 
     }
@@ -50,7 +56,8 @@ public class GreedyFlyingUnicorn extends FlyingUnicorn {
      * {@inheritDoc}
      */
     @Override
-    public void performStaticEffect() {
+    public void performStaticEffect()
+    {
         // TODO Auto-generated method stub
 
     }
