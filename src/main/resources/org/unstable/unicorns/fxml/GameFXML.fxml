@@ -25,6 +25,7 @@
                     <AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="218.0">
                       <children>
                         <Button layoutX="35.0" layoutY="336.0" mnemonicParsing="false" onAction="#getRandom" prefHeight="48.0" prefWidth="149.0" text="getRandom" />
+                        <Button layoutX="35.0" layoutY="270.0" mnemonicParsing="false" onAction="#draw" prefHeight="48.0" prefWidth="149.0" text="draw" />
                       </children>
                     </AnchorPane>
                   </children>

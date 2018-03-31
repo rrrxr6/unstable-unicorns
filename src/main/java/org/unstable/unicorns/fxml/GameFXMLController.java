@@ -44,9 +44,7 @@ public class GameFXMLController implements Initializable
             hand.addCard(deck.draw());
         }
 
-        deckList.setItems(FXCollections.observableArrayList(deck.getAll()));
-        playerOneHandList.setItems(FXCollections.observableArrayList(hand.getAll()));
-        randomCardsList.setItems(FXCollections.observableArrayList(randomHand.getAll()));
+        updateLists();
     }
 
     @FXML
@@ -54,6 +52,19 @@ public class GameFXMLController implements Initializable
     {
         randomHand.addCard(hand.getRandom());
 
+        updateLists();
+    }
+
+    @FXML
+    private void draw()
+    {
+        hand.addCard(deck.draw());
+
+        updateLists();
+    }
+
+    private void updateLists()
+    {
         deckList.setItems(FXCollections.observableArrayList(deck.getAll()));
         playerOneHandList.setItems(FXCollections.observableArrayList(hand.getAll()));
         randomCardsList.setItems(FXCollections.observableArrayList(randomHand.getAll()));

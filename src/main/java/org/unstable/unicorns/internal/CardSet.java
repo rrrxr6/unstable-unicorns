@@ -55,7 +55,7 @@ public abstract class CardSet
      */
     public Card draw()
     {
-        if (cardSet.size() == removedCards.size())
+        if (cardSet.isEmpty())
         {
             throw new IllegalStateException("No cards are left in the set.");
         }
@@ -123,7 +123,7 @@ public abstract class CardSet
 
     public Card getRandom()
     {
-        if (cardsLeft() == 0)
+        if (cardSet.isEmpty())
         {
             throw new IllegalStateException("No cards are left in the set.");
         }
