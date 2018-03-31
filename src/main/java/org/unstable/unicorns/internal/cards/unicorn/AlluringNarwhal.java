@@ -9,9 +9,9 @@ import org.unstable.unicorns.internal.utilities.PropertyAssistant;
  *
  * @author Matthew Hess
  */
-public abstract class AlluringNarwhal extends Unicorn
+public class AlluringNarwhal extends Unicorn
 {
-    AlluringNarwhal()
+    public AlluringNarwhal()
     {
         super(PropertyAssistant.getString("org.unstable.unicorns.internal.cards.unicorn.AlluringNarwhal.name"),
                 PropertyAssistant.getString("org.unstable.unicorns.internal.cards.unicorn.AlluringNarwhal.description"),
@@ -22,6 +22,36 @@ public abstract class AlluringNarwhal extends Unicorn
     @Override
     public void onStableEnter()
     {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 
+    @Override
+    public void onStableExit()
+    {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void onSacrifice()
+    {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void onDestroy()
+    {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void onTurnBegin()
+    {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void performStaticEffect()
+    {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }

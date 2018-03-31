@@ -3,17 +3,15 @@ package org.unstable.unicorns.internal.cards.unicorn;
 import java.awt.Image;
 
 import org.unstable.unicorns.internal.Player;
+import org.unstable.unicorns.internal.cards.Card;
 
 /**
  * The base unicorn class.
  *
  * @author Matthew Hess
  */
-public abstract class Unicorn
+public abstract class Unicorn extends Card
 {
-    private final String name;
-    private final String description;
-    private final Image image;
     private final Boolean hasStaticEffect;
 
     private Player currentOwner;
@@ -23,34 +21,8 @@ public abstract class Unicorn
 
     public Unicorn(String name, String description, Image image, Boolean hasStaticEffect)
     {
-        this.name = name;
-        this.description = description;
-        this.image = image;
+        super(name, description, Type.UNICORN, image);
         this.hasStaticEffect = hasStaticEffect;
-    }
-
-    /**
-     * @return the card name
-     */
-    public String getName()
-    {
-        return name;
-    }
-
-    /**
-     * @return the card description
-     */
-    public String getDescription()
-    {
-        return description;
-    }
-
-    /**
-     * @return the card image
-     */
-    public Image getImage()
-    {
-        return image;
     }
 
     /**

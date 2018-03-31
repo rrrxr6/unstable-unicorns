@@ -1,6 +1,8 @@
 package org.unstable.unicorns.internal.cards.unicorn;
 
 import java.awt.Image;
+import java.awt.Toolkit;
+import org.unstable.unicorns.internal.utilities.PropertyAssistant;
 
 /**
  * Description.
@@ -9,17 +11,12 @@ import java.awt.Image;
  */
 public class AnnoyingFlyingUnicorn extends FlyingUnicorn
 {
-
-    /**
-     * @param name
-     * @param description
-     * @param image
-     * @param hasStaticEffect
-     */
-    public AnnoyingFlyingUnicorn(String name, String description, Image image, Boolean hasStaticEffect)
+    public AnnoyingFlyingUnicorn()
     {
-        super(name, description, image, hasStaticEffect);
-        // TODO Auto-generated constructor stub
+        super(PropertyAssistant.getString("org.unstable.unicorns.internal.cards.unicorn.AnnoyingFlyingUnicorn.name"),
+                PropertyAssistant.getString("org.unstable.unicorns.internal.cards.unicorn.AnnoyingFlyingUnicorn.description"),
+                Toolkit.getDefaultToolkit()
+                        .getImage("src/main/resources/org/unstable/unicorns/images/annoyingFlyingUnicorn.jpg"), true);
     }
 
     /**

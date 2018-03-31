@@ -11,7 +11,7 @@ import java.util.Locale;
 public abstract class PropertyAssistant
 {
     private static final ResourceBundle RESOURCES = ResourceBundle
-            .getBundle("resources", new Locale("en", "US"));
+            .getBundle("org/unstable/unicorns/properties/resources", new Locale("en", "US"));
 
     public static final String getString(String key)
     {
