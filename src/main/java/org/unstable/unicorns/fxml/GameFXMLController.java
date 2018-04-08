@@ -6,6 +6,8 @@ import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.ListView;
+import org.unstable.unicorns.internal.CardSet;
+import org.unstable.unicorns.internal.CardSet.CardSetType;
 import org.unstable.unicorns.internal.Deck;
 import org.unstable.unicorns.internal.Hand;
 
@@ -25,7 +27,11 @@ public class GameFXMLController implements Initializable
     @FXML
     private ListView randomCardsList;
 
+    @FXML
+    private ListView discardList;
+
     Deck deck;
+    Deck discard;
     Hand hand;
     Hand randomHand;
 
@@ -35,7 +41,8 @@ public class GameFXMLController implements Initializable
     @Override
     public void initialize(URL url, ResourceBundle rb)
     {
-        deck = new Deck();
+        deck = new Deck(CardSetType.DECK);
+        discard = new Deck(CardSetType.DISCARD);
         hand = new Hand();
         randomHand = new Hand();
 

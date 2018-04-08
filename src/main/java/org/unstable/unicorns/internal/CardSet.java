@@ -132,5 +132,13 @@ public abstract class CardSet
         return this.getCard(randomizer.nextInt(cardsLeft()));
     }
 
+    public CardSetType getType()
+    {
+        return cardSetType;
+    }
+
+    /**
+     * Initializes the current set of cards for pre-game setup.
+     */
     public abstract void initCardSet();
 }

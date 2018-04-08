@@ -24,8 +24,8 @@
                   <children>
                     <AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="218.0">
                       <children>
-                        <Button layoutX="35.0" layoutY="336.0" mnemonicParsing="false" onAction="#getRandom" prefHeight="48.0" prefWidth="149.0" text="getRandom" />
-                        <Button layoutX="35.0" layoutY="270.0" mnemonicParsing="false" onAction="#draw" prefHeight="48.0" prefWidth="149.0" text="draw" />
+                        <Button layoutX="35.0" layoutY="284.0" mnemonicParsing="false" onAction="#getRandom" prefHeight="48.0" prefWidth="149.0" text="getRandom" />
+                        <Button layoutX="35.0" layoutY="222.0" mnemonicParsing="false" onAction="#draw" prefHeight="48.0" prefWidth="149.0" text="draw" />
                       </children>
                     </AnchorPane>
                   </children>
@@ -33,11 +33,13 @@
                 <VBox maxHeight="720.0" maxWidth="1280.0" minHeight="720.0" minWidth="840.0" prefHeight="720.0" prefWidth="840.0" style="-fx-background-color: gray;">
                   <children>
                     <Label alignment="CENTER" contentDisplay="CENTER" prefWidth="840.0" style="-fx-background-color: pink" text="Deck" textAlignment="CENTER" />
-                    <ListView id="cardList" fx:id="deckList" prefHeight="217.0" prefWidth="840.0" />
+                    <ListView id="cardList" fx:id="deckList" prefHeight="163.0" prefWidth="840.0" />
                     <Label alignment="CENTER" contentDisplay="CENTER" prefWidth="840.0" style="-fx-background-color: pink" text="Player 1 Hand" textAlignment="CENTER" />
-                    <ListView id="cardList" fx:id="playerOneHandList" prefHeight="217.0" prefWidth="840.0" />
+                    <ListView id="cardList" fx:id="playerOneHandList" prefHeight="163.0" prefWidth="840.0" />
                     <Label alignment="CENTER" contentDisplay="CENTER" prefWidth="840.0" style="-fx-background-color: pink" text="Randoms" textAlignment="CENTER" />
-                    <ListView id="cardList" fx:id="randomCardsList" prefHeight="217.0" prefWidth="840.0" />
+                    <ListView id="cardList" fx:id="randomCardsList" prefHeight="163.0" prefWidth="840.0" />
+                    <Label alignment="CENTER" contentDisplay="CENTER" prefWidth="840.0" style="-fx-background-color: pink" text="Discard" textAlignment="CENTER" />
+                    <ListView id="cardList" fx:id="discardList" prefHeight="167.0" prefWidth="840.0" />
                   </children>
                 </VBox>
                 <VBox prefHeight="720.0" prefWidth="220.0" />

@@ -9,21 +9,21 @@
 <?import javafx.scene.text.*?>
 
 <AnchorPane id="AnchorPane" maxHeight="720.0" maxWidth="1280.0" minHeight="720.0" minWidth="1280.0" prefHeight="720.0" prefWidth="1280.0" style="" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="org.unstable.unicorns.fxml.StartScreenFXMLDocumentController">
-    <children>
-        <AnchorPane id="AnchorPane" layoutX="0.0" layoutY="0.0" maxHeight="720.0" maxWidth="1280.0" minHeight="720.0" minWidth="1280.0" prefHeight="720.0" prefWidth="1280.0">
-            <children>
-                <ImageView fx:id="titleScreenImage" fitHeight="719.375" fitWidth="1278.8889425180082" layoutX="0.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
-                    <image>
-                        <Image url="@../images/02-RainbowUnicorn.jpg" />
-                    </image>
-                </ImageView>
-                <Button id="button" fx:id="startButton" layoutX="962.0" layoutY="245.0" onAction="#handleStartButtonAction" text="Start Game!">
-                    <font>
-                        <Font name="System Bold Italic" size="20.0" fx:id="x1" />
-                    </font>
-                </Button>
-                <Button id="button" fx:id="rulesButton" font="$x1" layoutX="971.0" layoutY="298.0" onAction="#handleRulesButtonAction" text="See Rules!" />
-            </children>
-        </AnchorPane>
-    </children>
+  <children>
+    <AnchorPane id="AnchorPane" layoutX="0.0" layoutY="0.0" maxHeight="720.0" maxWidth="1280.0" minHeight="720.0" minWidth="1280.0" prefHeight="720.0" prefWidth="1280.0">
+      <children>
+        <ImageView fx:id="titleScreenImage" fitHeight="720.0" fitWidth="1280.0" layoutX="0.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../images/02-RainbowUnicorn.jpg" />
+          </image>
+        </ImageView>
+        <Button id="button" fx:id="startButton" layoutX="962.0" layoutY="245.0" onAction="#handleStartButtonAction" text="Start Game!">
+          <font>
+            <Font name="System Bold Italic" size="20.0" fx:id="x1" />
+          </font>
+        </Button>
+        <Button id="button" fx:id="rulesButton" font="$x1" layoutX="971.0" layoutY="298.0" onAction="#handleRulesButtonAction" text="See Rules!" />
+      </children>
+    </AnchorPane>
+  </children>
 </AnchorPane>
