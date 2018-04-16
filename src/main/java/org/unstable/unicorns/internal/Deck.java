@@ -28,6 +28,15 @@ import org.unstable.unicorns.internal.cards.magic.UnicornSwap;
 import org.unstable.unicorns.internal.cards.unicorn.AlluringNarwhal;
 import org.unstable.unicorns.internal.cards.unicorn.AnnoyingFlyingUnicorn;
 import org.unstable.unicorns.internal.cards.unicorn.BasicUnicorn;
+import org.unstable.unicorns.internal.cards.unicorn.Narwhal;
+import org.unstable.unicorns.internal.cards.upgrade.DoubleDutch;
+import org.unstable.unicorns.internal.cards.upgrade.ExtraTail;
+import org.unstable.unicorns.internal.cards.upgrade.GlitterBomb;
+import org.unstable.unicorns.internal.cards.upgrade.RainbowAura;
+import org.unstable.unicorns.internal.cards.upgrade.RainbowMane;
+import org.unstable.unicorns.internal.cards.upgrade.SummoningRitual;
+import org.unstable.unicorns.internal.cards.upgrade.UnicornLasso;
+import org.unstable.unicorns.internal.cards.upgrade.Yay;
 
 /**
  * The {@link Card cards} representing a game-wide set available to all players. e.g., A deck, or discard pile
@@ -64,26 +73,26 @@ public class Deck extends CardSet
             this.addCard(new SuperNeigh());
 
             //Create Magic
-            this.addCard(new UnicornShrinkray());
+            this.addCard(new BlatantThievery());
             this.addCard(new GoodDeal());
-            this.addCard(new Shakeup());
             this.addCard(new MysticalVortex());
             this.addCard(new ResetButton());
-            this.addCard(new BlatantThievery());
+            this.addCard(new Shakeup());
             this.addCard(new TargetedDestruction());
+            this.addCard(new UnicornShrinkray());
             for (int i = 0; i < 2; i++)
             {
+                this.addCard(new ChangeOfLuck());
                 this.addCard(new GlitterTornado());
+                this.addCard(new Retarget());
+                this.addCard(new TwoForOne());
                 this.addCard(new UnfairBargain());
                 this.addCard(new UnicornSwap());
-                this.addCard(new ChangeOfLuck());
-                this.addCard(new TwoForOne());
-                this.addCard(new Retarget());
             }
             for (int i = 0; i < 3; i++)
             {
-                this.addCard(new UnicornPoison());
                 this.addCard(new BackKick());
+                this.addCard(new UnicornPoison());
             }
 
             //Create Basic Unicorns
@@ -94,17 +103,17 @@ public class Deck extends CardSet
                     this.addCard(new BasicUnicorn(i));
                 }
             }
-            this.addCard(new BasicNarwhal());
+            this.addCard(new Narwhal());
 
             //Create Other Unicorns
             this.addCard(new AlluringNarwhal());
             this.addCard(new AnnoyingFlyingUnicorn());
 
             //Create Upgrades
-            this.addCard(new RainbowAura());
-            this.addCard(new UnicornLasso());
-            this.addCard(new SummoningRitual());
             this.addCard(new DoubleDutch());
+            this.addCard(new RainbowAura());
+            this.addCard(new SummoningRitual());
+            this.addCard(new UnicornLasso());
             for(int i = 0; i < 2; i++)
             {
                 this.addCard(new GlitterBomb());
@@ -112,8 +121,8 @@ public class Deck extends CardSet
             }
             for (int i = 0; i < 3; i++)
             {
-                this.addCard(new RainbowMane());
                 this.addCard(new ExtraTail());
+                this.addCard(new RainbowMane());
             }
 
             this.shuffle();

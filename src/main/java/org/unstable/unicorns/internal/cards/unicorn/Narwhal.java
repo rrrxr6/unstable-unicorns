@@ -7,14 +7,14 @@ import org.unstable.unicorns.internal.utilities.PropertyAssistant;
  *
  * @author Matthew Hess
  */
-public class BasicUnicorn extends Unicorn
+public class Narwhal extends Unicorn
 {
-    public BasicUnicorn(int imageNumber)
+    public Narwhal()
     {
-        super(PropertyAssistant.getString("org.unstable.unicorns.internal.cards.unicorn.BasicUnicorn.name"),
-                PropertyAssistant.getString("org.unstable.unicorns.internal.cards.unicorn.BasicUnicorn.description"),
+        super("Narwhal",
+                "This card has no special powers, but it sure is cute!",
                 Toolkit.getDefaultToolkit()
-                        .getImage("src/main/resources/org/unstable/unicorns/images/basicunicorn" + imageNumber + ".jpg"), false);
+                        .getImage("src/main/resources/org/unstable/unicorns/images/narwhal.jpg"), false);
     }
 
     @Override
