@@ -16,7 +16,7 @@ public class AnnoyingFlyingUnicorn extends FlyingUnicorn
         super(PropertyAssistant.getString("org.unstable.unicorns.internal.cards.unicorn.AnnoyingFlyingUnicorn.name"),
                 PropertyAssistant.getString("org.unstable.unicorns.internal.cards.unicorn.AnnoyingFlyingUnicorn.description"),
                 Toolkit.getDefaultToolkit()
-                        .getImage("src/main/resources/org/unstable/unicorns/images/annoyingFlyingUnicorn.jpg"), true);
+                        .getImage("src/main/resources/org/unstable/unicorns/images/annoyingflyingunicorn.jpg"), true);
     }
 
     /**

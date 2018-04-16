@@ -16,7 +16,7 @@ public class AlluringNarwhal extends Unicorn
         super(PropertyAssistant.getString("org.unstable.unicorns.internal.cards.unicorn.AlluringNarwhal.name"),
                 PropertyAssistant.getString("org.unstable.unicorns.internal.cards.unicorn.AlluringNarwhal.description"),
                 Toolkit.getDefaultToolkit()
-                        .getImage("src/main/resources/org/unstable/unicorns/images/alluringNarwhal.jpg"), false);
+                        .getImage("src/main/resources/org/unstable/unicorns/images/alluringnarwhal.jpg"), false);
     }
 
     @Override
