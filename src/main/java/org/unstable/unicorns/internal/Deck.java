@@ -10,6 +10,21 @@ import org.unstable.unicorns.internal.cards.downgrade.Slowdown;
 import org.unstable.unicorns.internal.cards.downgrade.TinyStable;
 import org.unstable.unicorns.internal.cards.instant.Neigh;
 import org.unstable.unicorns.internal.cards.instant.SuperNeigh;
+import org.unstable.unicorns.internal.cards.magic.BackKick;
+import org.unstable.unicorns.internal.cards.magic.BlatantThievery;
+import org.unstable.unicorns.internal.cards.magic.ChangeOfLuck;
+import org.unstable.unicorns.internal.cards.magic.GlitterTornado;
+import org.unstable.unicorns.internal.cards.magic.GoodDeal;
+import org.unstable.unicorns.internal.cards.magic.MysticalVortex;
+import org.unstable.unicorns.internal.cards.magic.ResetButton;
+import org.unstable.unicorns.internal.cards.magic.Retarget;
+import org.unstable.unicorns.internal.cards.magic.Shakeup;
+import org.unstable.unicorns.internal.cards.magic.TargetedDestruction;
+import org.unstable.unicorns.internal.cards.magic.TwoForOne;
+import org.unstable.unicorns.internal.cards.magic.UnfairBargain;
+import org.unstable.unicorns.internal.cards.magic.UnicornPoison;
+import org.unstable.unicorns.internal.cards.magic.UnicornShrinkray;
+import org.unstable.unicorns.internal.cards.magic.UnicornSwap;
 import org.unstable.unicorns.internal.cards.unicorn.AlluringNarwhal;
 import org.unstable.unicorns.internal.cards.unicorn.AnnoyingFlyingUnicorn;
 import org.unstable.unicorns.internal.cards.unicorn.BasicUnicorn;
@@ -49,7 +64,7 @@ public class Deck extends CardSet
             this.addCard(new SuperNeigh());
 
             //Create Magic
-            this.addCard(new UnicornShrinkRay());
+            this.addCard(new UnicornShrinkray());
             this.addCard(new GoodDeal());
             this.addCard(new Shakeup());
             this.addCard(new MysticalVortex());
