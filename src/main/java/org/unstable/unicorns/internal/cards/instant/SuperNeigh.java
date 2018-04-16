@@ -19,6 +19,6 @@ public class SuperNeigh extends Instant
         super(PropertyAssistant.getString("org.unstable.unicorns.internal.cards.instant.SuperNeigh.name"),
                 PropertyAssistant.getString("org.unstable.unicorns.internal.cards.instant.SuperNeigh.description"),
                 Toolkit.getDefaultToolkit()
-                        .getImage("src/main/resources/org/unstable/unicorns/images/superNeigh.jpg"));
+                        .getImage("src/main/resources/org/unstable/unicorns/images/superneigh.jpg"));
     }
 }

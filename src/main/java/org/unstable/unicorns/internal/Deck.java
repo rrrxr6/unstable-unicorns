@@ -1,6 +1,15 @@
 package org.unstable.unicorns.internal;
 
+import org.unstable.unicorns.internal.cards.downgrade.BardedWire;
+import org.unstable.unicorns.internal.cards.downgrade.BlindingLight;
+import org.unstable.unicorns.internal.cards.downgrade.BrokenStable;
+import org.unstable.unicorns.internal.cards.downgrade.NannyCam;
+import org.unstable.unicorns.internal.cards.downgrade.Pandamonium;
+import org.unstable.unicorns.internal.cards.downgrade.SadisticRitual;
+import org.unstable.unicorns.internal.cards.downgrade.Slowdown;
+import org.unstable.unicorns.internal.cards.downgrade.TinyStable;
 import org.unstable.unicorns.internal.cards.instant.Neigh;
+import org.unstable.unicorns.internal.cards.instant.SuperNeigh;
 import org.unstable.unicorns.internal.cards.unicorn.AlluringNarwhal;
 import org.unstable.unicorns.internal.cards.unicorn.AnnoyingFlyingUnicorn;
 import org.unstable.unicorns.internal.cards.unicorn.BasicUnicorn;
@@ -23,7 +32,7 @@ public class Deck extends CardSet
         if(this.getType() == CardSetType.DECK)
         {
             //Create Downgrades
-            this.addCard(new BarbedWire());
+            this.addCard(new BardedWire());
             this.addCard(new BlindingLight());
             this.addCard(new BrokenStable());
             this.addCard(new NannyCam());
